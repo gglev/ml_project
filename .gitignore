@@ -1,8 +1,16 @@
-.DS_Store
+# Ноутбуки и кэш
 .ipynb_checkpoints/
 __pycache__/
+*.pyc
+
+# Игнорируем все папки с тяжелыми датасетами
+**/data/
 *.csv
-*.parquet
+*.xlsx
+*.xls
 *.zip
-*.tar.gz
-data/
+
+# Локальные настройки редакторов
+.vscode/
+.idea/
+.DS_Store
